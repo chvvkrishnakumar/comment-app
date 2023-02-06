@@ -1,0 +1,29 @@
+/* Write your CSS here */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin: 10px;
+  border-style: solid;
+}
+textarea {
+  margin: 10px;
+  height: 100px;
+  width: 250px;
+  border-style: solid;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+button {
+  background-color: rgb(60, 60, 108);
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
